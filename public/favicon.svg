@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded rectangle background -->
+  <rect width="64" height="64" rx="12" fill="url(#bgGradient)"/>
+  
+  <!-- Border -->
+  <rect width="64" height="64" rx="12" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  
+  <!-- ZC Text -->
+  <text 
+    x="32" 
+    y="42" 
+    font-family="system-ui, -apple-system, sans-serif" 
+    font-size="28" 
+    font-weight="700" 
+    fill="white" 
+    text-anchor="middle"
+    letter-spacing="-0.5"
+  >ZC</text>
+</svg>
